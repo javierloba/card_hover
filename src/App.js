@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import image from './img/pepsi.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='card'>
+      <div className='circle'></div>
+      <div className='content'>
+        <h2>Pepsi Cola</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis augue nulla, pulvinar ac eros in, efficitur pulvinar nisi.</p>
+        <a href='#'>Buy Now</a>
+      </div>
+      <img src={image} />
     </div>
   );
 }
